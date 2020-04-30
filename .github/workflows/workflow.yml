@@ -7,9 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-
     - name: Execute ObjectScript Quality Analysis
       env:
         JENKINS_OBJECTSCRIPTQUALITY_USER: hook
