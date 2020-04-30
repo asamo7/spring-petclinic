@@ -1,4 +1,4 @@
-name: CI
+name: objectscriptquality
 on: push
 
 jobs:
